@@ -1,15 +1,15 @@
-Source: debathena-ldap-config
-Section: debathena-config/net
+Source: uoitsci-ldap-config
+Section: uoitsci-config/net
 Priority: extra
-Maintainer: Debathena Project <debathena@mit.edu>
+Maintainer: Richard Drake <richard.drake@uoit.ca>
 Build-Depends: cdbs, debhelper, dh-buildinfo, config-package-dev (>= 5.0~), libldap2-dev
 Standards-Version: 3.9.3
 
-Package: debathena-ldap-config
+Package: uoitsci-ldap-config
 Architecture: all
-Depends: debathena-ssl-certificates, libsasl2-modules-gssapi-mit | libsasl2-gssapi-mit, ${misc:Depends}
+Depends: ${misc:Depends}
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
-Description: LDAP configuration for Debathena
- This package configures your system to use ldap.mit.edu as its
- default LDAP server.
+Description: LDAP configuration for UOIT Science
+ This package configures your system to use ceres.science.uoit.ca and
+ pallas.science.uoit.ca as its default LDAP servers.

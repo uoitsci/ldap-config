@@ -1,0 +1,3 @@
+#!/usr/bin/perl -0p
+s/^#BASE.*$/BASE\tdc=science,dc=uoit,dc=ca/m or die;
+s/^#URI.*$/URI\tldap:\/\/ceres.science.uoit.ca ldap:\/\/pallas.science.uoit.ca/m or die;

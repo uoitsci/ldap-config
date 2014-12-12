@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
-DEB_DIVERT_EXTENSION = .debathena
-DEB_TRANSFORM_FILES_debathena-ldap-config += \
-	/etc/ldap/ldap.conf.debathena
+DEB_DIVERT_EXTENSION = .uoitsci
+DEB_TRANSFORM_FILES_uoitsci-ldap-config += \
+	/etc/ldap/ldap.conf.uoitsci
 include /usr/share/cdbs/1/rules/debhelper.mk
 include /usr/share/cdbs/1/rules/config-package.mk
