@@ -1,4 +1,4 @@
-debathena-ldap-config (2.0) unstable; urgency=low
+uoitsci-ldap-config (2.0) unstable; urgency=low
 
   * Modified the original debathena-ldap-config package to point to our LDAP servers
 
